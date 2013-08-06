@@ -1,5 +1,6 @@
 (function($) {
   var scrollBarNmbr=0;
+	var lastY=0;
 	$.fn.makeScrollable=function(){
 		return this.each(function() {
 			$(this).css("overflow","hidden");
